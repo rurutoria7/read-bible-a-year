@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>一年讀經一遍 · 課程目錄</title>
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+  /* 目錄頁專用卡片樣式（沿用主題變數，夜間主題自動套用） */
+  .toc-list { margin: 0.4rem 0 1.2rem; }
+  .card {
+    display: block;
+    padding: 0.9rem 1.1rem;
+    margin: 0.55rem 0;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--card);
+    text-decoration: none;
+    color: var(--ink);
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .card:hover { border-color: var(--accent); background: var(--accent-soft); }
+  .card .num {
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 0.15rem;
+  }
+  .card .title { font-weight: 600; font-size: 1.06rem; display: block; }
+  .card .sub {
+    font-family: var(--sans);
+    font-size: 0.86rem;
+    color: var(--ink-soft);
+    display: block;
+    margin-top: 0.15rem;
+  }
+  .card .tag {
+    display: inline-block;
+    font-family: var(--sans);
+    font-size: 0.7rem;
+    color: var(--ink-faint);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.05rem 0.5rem;
+    margin-top: 0.35rem;
+  }
+</style>
+</head>
+<body>
+<article class="lesson">
+
+  <header class="lesson-head">
+    <p class="course-label">一年讀經一遍 · 課程目錄</p>
+    <h1>一年讀經一遍</h1>
+    <p class="subtitle">每天 3 章舊約 + 1 章新約，讀懂當日經文：事實 + 鳥瞰</p>
+    <p class="meta">點擊任一課進入。右上角 ☾ 可切夜間主題（會記住你的選擇）。</p>
+  </header>
+
+  <section>
+    <h2><span class="sec-num">壹</span>課程</h2>
+    <div class="toc-list">
+      <a class="card" href="lessons/0001-民數記24-26.html">
+        <span class="num">第 0001 課 · 民數記</span>
+        <span class="title">民數記 24–26</span>
+        <span class="sub">巴蘭的祝福 → 墮落與潔淨 → 重新數點</span>
+      </a>
+      <a class="card" href="lessons/0002-使徒行傳1.html">
+        <span class="num">第 0002 課 · 使徒行傳</span>
+        <span class="title">使徒行傳 1</span>
+        <span class="sub">引言與預備 → 等候聖靈 → 揀選馬提亞</span>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="sec-num">貳</span>參考文件</h2>
+    <div class="toc-list">
+      <a class="card" href="reference/民數記-鑰字詞彙表.html">
+        <span class="num">Glossary · 民數記</span>
+        <span class="title">民數記 鑰字詞彙表</span>
+        <span class="sub">人名、地名、鑰字隨時回查 · 目前涵蓋 24–26 章</span>
+      </a>
+      <a class="card" href="reference/使徒行傳-鑰字詞彙表.html">
+        <span class="num">Glossary · 使徒行傳</span>
+        <span class="title">使徒行傳 鑰字詞彙表</span>
+        <span class="sub">人名、地名、鑰字隨時回查 · 目前涵蓋第 1 章</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="lesson-foot">
+    <p>課程目錄 · 隨每日進度增補</p>
+    <p class="nav">本頁所有內容為個人讀經筆記。</p>
+  </footer>
+
+</article>
+<script src="assets/theme.js"></script>
+</body>
+</html>
