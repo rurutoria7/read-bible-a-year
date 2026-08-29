@@ -5,18 +5,18 @@
    ============================================================ */
 
 :root {
-  --paper: #fbfaf7;
-  --ink: #1c1b1a;
-  --ink-soft: #55504a;
-  --ink-faint: #8a847a;
+  --paper: #ffffff;           /* 純白底 */
+  --ink: #1a1a1a;
+  --ink-soft: #555555;
+  --ink-faint: #767676;
   --accent: #8a2f2f;          /* 沉紅／牛血紅 */
-  --accent-soft: #f3e7e0;
-  --gold: #a4832f;
-  --line: #e3ddd2;
+  --accent-soft: #f4f4f5;
+  --gold: #6b7280;            /* 標籤用中性灰 */
+  --line: #e5e5e5;
   --card: #ffffff;            /* 卡片／表面 */
-  --note-bg: #fdfaf1;         /* 提醒框背景 */
-  --head-bg: #1c1b1a;         /* 表格標頭背景 */
-  --head-fg: #fbfaf7;         /* 表格標頭文字 */
+  --note-bg: #fafafa;         /* 提醒框背景 */
+  --head-bg: #1a1a1a;         /* 表格標頭背景 */
+  --head-fg: #ffffff;         /* 表格標頭文字 */
   --serif: "Iowan Old Style", "Songti TC", "Noto Serif CJK TC", "STSong", Georgia, serif;
   --sans: "Avenir Next", "PingFang TC", "Noto Sans CJK TC", "Microsoft JhengHei", -apple-system, sans-serif;
   --mono: "SF Mono", "Cascadia Code", Consolas, monospace;
@@ -25,9 +25,9 @@
 /* ---------- 夜間主題（純黑底、不純白字） ---------- */
 html[data-theme="dark"] {
   --paper: #000000;           /* 純黑底 */
-  --ink: #e6e4e1;             /* 不純白字 */
-  --ink-soft: #b8b3ab;
-  --ink-faint: #8a847b;
+  --ink: #b0ada7;             /* 更暗的灰白字 */
+  --ink-soft: #8a867f;
+  --ink-faint: #6a665f;
   --accent: #e08870;
   --accent-soft: #211510;
   --gold: #c9a85e;
@@ -35,7 +35,7 @@ html[data-theme="dark"] {
   --card: #0e0e0e;
   --note-bg: #14110d;
   --head-bg: #1a1a1a;
-  --head-fg: #e6e4e1;
+  --head-fg: #b0ada7;
   color-scheme: dark;
 }
 
