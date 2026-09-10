@@ -138,6 +138,64 @@ strong { font-weight: 600; }
 a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
 a:hover { text-decoration-thickness: 2px; }
 
+/* ---------- 文字來源標示（第 0019 課起） ---------- */
+.reading-key {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.65rem 1rem;
+  margin: -0.8rem 0 2rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+.reading-key p { margin: 0.35rem 0; }
+.text-kind {
+  display: inline-block;
+  padding: 0.1rem 0.45rem;
+  margin: 0 0.4rem 0.35rem 0;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  line-height: 1.6;
+  font-weight: 400;
+  vertical-align: middle;
+}
+.kind-original {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+.kind-summary {
+  border-style: dashed;
+  color: var(--ink);
+  background: var(--note-bg);
+}
+.kind-editor {
+  border-style: dotted;
+  color: var(--ink-soft);
+  background: var(--paper);
+}
+.source-original { border-left: 3px solid var(--accent); }
+.source-summary {
+  border-left: 3px solid var(--line);
+  background: var(--note-bg);
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+  border-radius: 0 5px 5px 0;
+}
+.source-summary h4 { margin-top: 0; }
+.source-summary .tie {
+  display: block;
+  border-left: 2px dotted var(--gold);
+  padding-left: 0.65rem;
+  margin-top: 0.45rem;
+}
+.recap[data-writing="editor"] .recap-body {
+  background: transparent;
+  border-left-style: dotted;
+}
+
 /* ---------- 金句（鑰節） ---------- */
 .verse {
   margin: 1.2rem 0;
